@@ -34,7 +34,6 @@ end
 
 def add_s(words)
   
-<<<<<<< HEAD
   words.each_with_index.map do |word,index|
     if index == 1 
       word
@@ -42,10 +41,3 @@ def add_s(words)
       word = word << "s"
     end
   end
-
-=======
-  words.each_with_index.map {|word,index| word << "s" if index != 1 else word}
-  
-  
->>>>>>> 29e2803332ad02503f82d2a88358c2cad263c048
-end 

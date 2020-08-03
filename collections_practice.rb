@@ -41,3 +41,4 @@ def add_s(words)
       word = word << "s"
     end
   end
+end
